@@ -1,0 +1,320 @@
+
+p {
+  font-family: "inter", sans-serif;
+}
+h1 {
+  font-family: "Inter", sans-serif !important;
+  font-weight: bold !important;
+}
+#header .fixed-top {
+  height: 68px;
+}
+
+.mobile-nav-toggle {
+  color: #222222;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
+
+.mobile-nav-toggle.bi-x {
+  color: #fff;
+}
+
+
+.navbar-mobile {
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(9, 9, 9, 0.9);
+  transition: 0.3s;
+  z-index: 999;
+}
+
+.navbar-mobile .mobile-nav-toggle {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+.navbar-mobile a,
+.navbar-mobile a:focus {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #222222;
+}
+
+.navbar-mobile > ul > li {
+  padding: 0;
+}
+
+.navbar-mobile a:hover:before,
+.navbar-mobile li:hover > a:before,
+.navbar-mobile .active:before {
+  visibility: hidden;
+}
+
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
+  color: #178ee2;
+}
+
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
+  margin: 15px;
+}
+
+.scrolled-offset {
+  margin-top: 70px;
+}
+
+.info-homepage {
+  display: inline-block;
+  width: 352px;
+  height: 170px;
+}
+.kosong {
+  height: 200px;
+}
+.navbar-brands {
+  font-family: "Poppins", sans-serif !important;
+  align-items: center !important;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.navigasi a {
+  color: #15487c;
+}
+.jumbotron {
+  padding-top: 2rem !important;
+  background-color: #e2effe;
+  background-image: url(img/backgroundhero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-organisasi {
+  background-repeat: no-repeat;
+  background-color: white !important;
+  background-image: url(img/background-organisasi-resized.jpg) opacity 20%;
+}
+.organisasiyuk {
+  background-color: #178ee2;
+}
+.info-pemira {
+  width: auto;
+  height: auto;
+  background-image: url(img/bg-infopemira.png) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logoorg {
+  width: 10% !important;
+  height: auto !important;
+  margin: 30px;
+}
+.border-swiper {
+  border-radius: 20px;
+  border: 3px solid;
+  width: 600px;
+  border-color: #ece302;
+}
+.btn-swipe{
+  color: #15487c;
+}
+
+#pages-slide{
+  border: 3px solid;
+  border-radius: 30px;
+  border-color: #15487c;
+  width: 50px;
+  text-align: center;
+}
+#pages-slide .disabled{
+  border-color:transparent !important;
+}
+#pages-slide h2{
+  padding: 5px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.benefit {
+  background-image: url(img/bg-benefit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.benefit h1 {
+  color: #15487c;
+  font-size: 24px;
+  font-weight: 700 !important;
+  width: 210px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-prev {
+  color: #ece302 !important;
+  left: 30px !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 30px !important;
+  padding: 3%;
+}
+.swiper-button-next {
+  color: #ece302 !important;
+  right: 30px !important;
+}
+
+.brand-pemira {
+  background-color: rgba(13, 128, 234, 0.7);
+}
+.btn-pemira {
+  width: 138px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  border: white solid;
+  border-radius: 15px;
+  color: white;
+}
+.detail-pemira {
+  font-family: "inter", sans-serif;
+  color: rgba(21, 72, 124, 1);
+}
+.detail-pemira h1 {
+  font-size: 32px;
+}
+.detail-pemira p {
+  font-size: 16px;
+}
+.acara {
+  font-family: "inter", sans-serif;
+  color: rgba(21, 72, 124, 1);
+}
+.acara h1 {
+  font-size: 32px;
+}
+.acara li {
+  font-size: 16px;
+}
+
+.paslon{
+  background-image: url(img/bg-paslon.png);
+  width: auto;
+  height: 620px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -164px;
+}
+
+.info-paslon{
+  height:auto ;
+}
+.info-paslon h1{
+  color: #15487C;
+  font-size: 32px;
+  font-weight: bold !important;
+  text-align: center;
+}
+.card-paslon{
+  border: 5px solid;
+  border-color: #15487c;
+  border-radius: 20px;
+  height: 300px;
+  width: 280px;
+}
+
+.card-paslon img{
+  padding-top: 40px;
+}
+
+.detail-paslon{
+  background-color: rgba(13, 128, 234, 0.7);
+}
+
+.detail-calon h1{
+  font-size: 32px;
+  
+  color: #ece302;
+}
+
+.detail-calon h3{
+  color: #e2effe;
+  font-family: 'Inter',sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.visi-misi{
+  width: 800px;
+}
+
+.visi, .misi{
+  font-family: 'Inter',sans-serif;
+  color: #e2effe;
+}
+
+.visi, .misi h1{
+  font-size: 18px;
+  font-weight: 500;
+}
+.visi, .misi li{
+  font-size: 16px;
+  font-weight: 200;
+}
+
+@media(max-width: 414px) {
+  body {
+    max-width: auto ;
+  }
+  #pemira{
+    height: 960px;
+    flex: none;
+  }
+  .info-pemira{
+    width: auto;
+    height: 1024px;
+  }
+  .visi-misi{
+    width: 300px !important;
+  }
+}
+@media (max-width: 1440px) {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+}
