@@ -342,6 +342,34 @@ width: auto;
   box-shadow: 0px 0px 10px #888888;
   z-index: 1000;
 }
+.footer-top{
+  background-color: white;
+  border-top: #ece302;
+}
+
+.footer-menu ul{
+  padding-left: 0px !important;
+
+}
+.footer-menu ul>li{
+  font-family: 'Inter',sans-serif;
+  font-weight: 600;
+  display: block;
+  text-decoration: none;
+}
+.footer-menu ul>li>a{
+  text-decoration: none !important;
+  color: black;
+}
+.footer-menu ul>li>a:hover{
+  color: #15487C;
+}
+.copy-right{
+  background-color: #FAA80A;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  display: flex;
+}
 
 @media(max-width: 414px) {
   body {
